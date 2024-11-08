@@ -18,7 +18,7 @@ from flask import Flask, send_from_directory
 import pymysql
 from sqlalchemy import create_engine
 # Define database configuration
-DB_HOST = '127.0.0.1'
+DB_HOST = '34.226.209.166'
 DB_NAME = 'invoicedetails'
 DB_USER = 'root'
 DB_PASS = 'root'
@@ -26,7 +26,7 @@ DB_PASS = 'root'
 db_config = {
     'user': 'root',
     'password': 'root',
-    'host': '127.0.0.1',
+    'host': '34.226.209.166',
     'database': 'invoicedetails',
 }
 connection = mysql.connector.connect(
